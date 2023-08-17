@@ -36,6 +36,7 @@ public class Exercise1 {
                 .forEach(e -> System.out.println(e.firstName()));
 
         // Print first names in userStream for users that have IDs from number stream
+        //stream flatMap vs map
         System.out.println("-----6-----");
         StreamSources.intNumbersStream()
                 //.map(id -> StreamSources.userStream().filter(u -> u.id() == id)) //this will return stream of user

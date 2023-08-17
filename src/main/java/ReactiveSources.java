@@ -3,12 +3,6 @@ import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 
-/**
- * This class is a source of reactive streams used in the exercises.
- * DO NOT MODIFY THIS CODE
- *
- * @author koushikkothagal
- */
 public class ReactiveSources {
 
     public static Flux<String> stringNumbersFlux() {
